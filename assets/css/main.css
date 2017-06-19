@@ -6467,3 +6467,138 @@ section.ads {
   section.showcase h2 {
     font-size: 2.2rem; } }
 
+
+
+/*button login*/
+element.style {
+}
+main.css:5883
+.main-nav a {
+    color: #202020 !important;
+    font-size: 13px;
+    font-weight: 600;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+main.css:5940
+.login-btn {
+    border-radius: 50px;
+    border: none;
+    padding: 8px 20px;
+    margin-top: 8px;
+    background: #fff;
+}
+main.css:5862
+.grad-text {
+    background-image: -webkit-gradient(linear, left top, right top, from(#eb3642), to(#f97326));
+    background-image: -webkit-linear-gradient(left, #eb3642, #f97326);
+    background-image: -o-linear-gradient(left, #eb3642, #f97326);
+    background-image: linear-gradient(to right, #eb3642, #f97326);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 800;
+}
+main.css:3083
+.btn-lg, .btn-group-lg > .btn {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33333;
+    border-radius: 6px;
+}
+main.css:2840
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+main.css:2797
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+main.css:5853
+a {
+    text-decoration: none;
+}
+main.css:1076
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+main.css:46
+a {
+    background-color: transparent;
+}
+main.css:1046
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: underline;
+}
+Inherited from body
+main.css:5842
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #202020;
+}
+main.css:1061
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333333;
+    background-color: #fff;
+}
+Inherited from html
+main.css:1057
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+main.css:8
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+Pseudo ::before element
+main.css:1052
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+Pseudo ::after element
+main.css:1052
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
