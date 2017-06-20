@@ -52,9 +52,14 @@ $(function(){
     origin: 'left',
     distance: '100px'
   });
-  sr.reveal('.prize2, .promotion-stuff-2', {
+  sr.reveal('.promotion-stuff-2', {
     duration: 2000,
     origin: 'right',
+    distance: '100px'
+  });
+    sr.reveal('.prize2', {
+    duration: 2000,
+    origin: 'bottom',
     distance: '100px'
   });
   sr.reveal('.prize3', {

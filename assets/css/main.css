@@ -6220,7 +6220,7 @@ section.campaign {
   section.campaign span {
     display: block;
     font-size: 1.2rem; }
-  section.campaign .col-md-6 h3 {
+  section.campaign .col-md-8 h3 {
     font-weight: bold;
     margin-bottom: 0px;
   }
@@ -6233,11 +6233,11 @@ section.campaign {
   }
   section.campaign .campaign-b {
     margin-top: 30px; }
-  section.campaign .col-md-6 {
-    height: 230px;
+  section.campaign .col-md-8 {
+    height: 200px;
     padding: 40px;
     margin-bottom: 20px; }
-    section.campaign .col-md-6 .price {
+    section.campaign .col-md-8 .price {
       margin-top: 40px; }
   section.campaign .col-sm-3:hover {
     border: 1px #ccc !important
@@ -6258,10 +6258,10 @@ section.campaign {
     background-repeat: no-repeat;
     margin-top: 50px;
     height: 153px;
-    width: all
+    width: auto;
   }
   section.campaign .prize-background1 h2 {
-    margin-top: 30px;
+    margin-top: 0px;
     margin-left: 150px;
     font-weight: bold;
     color: #4a260d;
