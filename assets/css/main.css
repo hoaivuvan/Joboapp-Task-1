@@ -5954,6 +5954,16 @@ a {
   min-width: 100px;
   height: 44px; }
 
+/**** LOGIN BUTTON ****/
+.login-btn {
+  border-radius: 50px;
+  border: none;
+  padding: 8px 20px;
+  margin-top: 8px;
+  background: #fff; }
+  .login-btn:hover {
+    background: #ffd41e; }
+
 
 .wrap-header {
   width: 100%;
@@ -5986,6 +5996,13 @@ a {
     border-width: 10px;
     color: #FFFFFF;
     background-color: #ff5a21;
+  }
+  .intro .btn:hover {
+    color: #000;
+  }
+  .intro .btn:active {
+    color: #000;
+    background-color: #FFF;
   }
   .intro .text-box {
     margin-top: 190px;
@@ -6042,6 +6059,7 @@ section.dua-top{
   }
   section.dua-top .camp {
     height: 200px;
+    font-size: 15px;
   }
   section.dua-top .grad-text {
     font-style: normal;
@@ -6052,7 +6070,8 @@ section.dua-top{
 section.ranking {
   padding: 30px 0 15px 0;
     background-image: url(../img/weekly-rankings-background.png);
-    background-size: cover;}
+    background-size: cover;
+    background-position: center;  }
   section.ranking .line {
     border-bottom: 1px solid #999999;
     margin: 10px 0;
@@ -6104,12 +6123,17 @@ section.countdown {
     margin-top: 50px;
     margin-bottom: 50px;    }
     section.countdown .countdown-timer .col-xs-3 {
-      padding-left: 0px; }
+      padding: 0px; }
+    section.countdown .countdown-timer .col-md-2 {
+      padding: 5px; }
     section.countdown .col-xs-1 {
       padding: 0px;    }
     section.countdown .col-xs-5 {
       padding: 2px;
       margin-bottom: 20px;    }
+    section.countdown .col-xs-6 {
+      padding: 2px;
+      margin-bottom: 20px;  }
     section.countdown .col-xs-2 {
       padding: 5px;    }
     section.countdown .countdown-timer .count {
@@ -6159,9 +6183,9 @@ section.showcase {
     box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
   }
   section.showcase .box {
-    width: 400px;
+    width: 100%;
+    min-height: 140px;
     background: #fff;
-    height: 125px;
     border-radius: 15px;
     color: #202020;
     float: left;
@@ -6198,6 +6222,7 @@ section.campaign {
     font-size: 1.2rem; }
   section.campaign .col-md-6 h3 {
     font-weight: bold;
+    margin-bottom: 0px;
   }
   section.campaign .campaign-b h3 {
     color: #4a260d;
@@ -6209,8 +6234,9 @@ section.campaign {
   section.campaign .campaign-b {
     margin-top: 30px; }
   section.campaign .col-md-6 {
-    height: 200px;
-    padding: 40px; }
+    height: 230px;
+    padding: 40px;
+    margin-bottom: 20px; }
     section.campaign .col-md-6 .price {
       margin-top: 40px; }
   section.campaign .col-sm-3:hover {
@@ -6379,10 +6405,14 @@ section.ads {
     background-color: #ff5a21; 
     color: #FFFFFF;
   }
+  section.ads .btn:hover {
+    color: #000;
+  }
   section.ads .btn:active {
     background-color: #FFFFFF;
     color: #000000;
   }
+
 
 .footer {
   width: 100%;
@@ -6397,7 +6427,8 @@ section.ads {
   .footer ul {
     padding: 0; }
   .footer li {
-    padding: 5px 0; }
+    margin-left: 0px; 
+    padding: 15px; }
   .footer i {
     margin-right: 10px; }
   .footer p {
@@ -6406,6 +6437,15 @@ section.ads {
       margin-top: 35px; }
   .footer .col-md-4 {
     margin: 20px 0; }
+
+
+@media (max-width: 768px) {
+  .intro {
+    width: 95% !important; } }
+
+@media (max-width: 768px) {
+  .box {
+    width: 100% !important; } }
 
 /* Small devices (tablets, 768px and down) */
 @media (max-width: 768px) {
